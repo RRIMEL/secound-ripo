@@ -9,7 +9,9 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+.main{
+    margin-left: 100px;
+}
 
 nav{
     display: flex;
@@ -45,6 +47,10 @@ nav ul a{
     color: aliceblue;
 
 }
+.main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .dark2{
     color: rgba(71, 71, 71, 1);
 }
@@ -69,6 +75,9 @@ nav ul a{
     background-image: url('/images/developer.png'),url('/images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    
+     background-size: contain;
+    
     
 }
 /* about */
@@ -134,4 +143,70 @@ text-align: center;
 .skill{
     padding: 10px;
     box-shadow: 0px 6px 40px 0px  chocolate;
+}
+/* resume */
+.resume{
+     width: 1000px;
+    margin-top: 100px;
+    padding: 0 130px;
+    text-align: center;
+
+}
+
+.resume-main-tittle{
+    color: rgba(24, 24, 24, 1);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+box-shadow: 0px 0px 10px 0px  chocolate;
+}
+.resume-container{
+    display: flex;
+    
+}
+hr{
+    column-gap: 20px;
+}
+.education{
+    color: rgb(48, 47, 47);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.resume-tittle{
+    color: rgba(71, 71, 71, 1);
+font-family: Open Sans;
+font-size: 21px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.resume-sub-tittle{
+    color: rgba(117, 117, 117, 1);
+font-family: Open Sans;
+font-size: 17px;
+font-weight: 600;
+line-height: 30%;
+letter-spacing: 0%;
+text-align: left;
+}
+.resume-description{
+    color: rgba(117, 117, 117, 1);
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.final{
+    margin-top: 30px;
 }
